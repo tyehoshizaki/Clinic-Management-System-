@@ -1,0 +1,22 @@
+{
+    "1111111111": {
+        "__type__": "Patient",
+        "PHN": 1111111111,
+        "name": "Tye Hoshizaki",
+        "birth_date": "2004-01-31",
+        "phone": "250-814-4754",
+        "email": "tyehoshizaki@gmail.com",
+        "address": "1066 Cashato Cres. Revelstoke, B.C. Canada",
+        "autosave": true
+    },
+    "2222222222": {
+        "__type__": "Patient",
+        "PHN": 2222222222,
+        "name": "John Smith",
+        "birth_date": "1999-03-12",
+        "phone": "250-837-6827",
+        "email": "jonsmith@gmail.com",
+        "address": "2020 Victoria St. Kelwona B.C. Canada",
+        "autosave": true
+    }
+}
