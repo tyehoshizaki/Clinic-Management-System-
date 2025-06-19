@@ -12,7 +12,7 @@ class NoteDAOPickle(NoteDAO):
         self.autocounter = 0
         self.notes = {}
         self.PHN = PHN
-        self.file = os.path.join(os.getcwd(), 'clinic/records/', f'{PHN}.dat')
+        self.file = 'clinic/records/' + f'{PHN}.dat'
         
         if self.autosave:
             try:

@@ -20,7 +20,7 @@ class PatientDAOJSON(PatientDAO):
         
     def load_patients(self):
         
-        patients_file = os.path.join(os.getcwd(), 'clinic/records/patients.json')
+        patients_file = 'clinic/records/patients.json'
         
         patients = {}
         try:
@@ -34,7 +34,7 @@ class PatientDAOJSON(PatientDAO):
             
     def save_patients(self):
         
-        patients_file = os.path.join(os.getcwd(), 'clinic/records/patients.json')
+        patients_file = 'clinic/records/patients.json'
         
         with open(patients_file, 'w+') as file:
             json.dump(self.patients, file, cls=PatientEncoder, indent=4)
